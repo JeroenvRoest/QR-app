@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>QR Client Scanner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Scan een QR-code</h1>
+  <div id="reader" style="width:300px;"></div>
+  <div id="result"></div>
+
+  <!-- Plaats voor QR-scanner -->
+<div id="reader" style="width: 300px;"></div>
+
+<!-- Resultaat tonen -->
+<pre id="result" style="margin-top: 20px; background-color: #f5f5f5; padding: 10px;"></pre>
+
+<!-- QR-lib includen -->
+<script src="https://unpkg.com/html5-qrcode"></script>
+<script src="script.js"></script>
+
+
+  <script src="https://unpkg.com/html5-qrcode"></script> <!-- QR scanner -->
+  <script src="script.js"></script>
+</body>
+</html>
